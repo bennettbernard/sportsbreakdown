@@ -3,3 +3,16 @@ body {
     background: whitesmoke;
     text-align: center;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
