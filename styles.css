@@ -4,12 +4,9 @@ body {
     text-align: center;
 }
 
-table, th, td {
-    border: 1px solid black;
-}
-
-th, td {
-    text-align: center;
+th {
+    position: sticky;
+    top: 0;
 }
 
 table {
@@ -23,6 +20,3 @@ table {
 
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
