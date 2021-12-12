@@ -13,9 +13,13 @@ th, td {
 }
 
 th {
-    background: white;
+    background: rgb(210, 225, 255);
     position: sticky;
-    top: 5px;
+    top: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
 }
 
 table {
