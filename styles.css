@@ -4,6 +4,15 @@ body {
     text-align: center;
 }
 
+a:link, a:visited {
+    color: #0453a3;
+    padding: 10px;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 table, th, td {
     border: 1px solid black;
 }
