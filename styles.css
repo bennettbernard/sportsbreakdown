@@ -6,7 +6,8 @@ body {
 
 a:link, a:visited {
     color: #01274e;
-    padding: 2px;
+    padding: 1px;
+    text-decoration: none;
 }
 
 a:active {
