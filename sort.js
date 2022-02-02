@@ -1,3 +1,5 @@
+window.onload=function(){
+
 const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
 const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
@@ -11,3 +13,5 @@ document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() =
         .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
         .forEach(tr => table.appendChild(tr) );
 })));
+
+}
