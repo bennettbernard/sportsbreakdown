@@ -1,5 +1,6 @@
 window.onload=function(){
 
+    
 const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
 const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
